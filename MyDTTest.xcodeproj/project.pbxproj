@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FDE05171227B22424A382DF /* libPods-MyDTTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9D1D4CFED02AE085ACF5C3 /* libPods-MyDTTest.a */; };
 		E944F61926A3D9D40021D9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F61826A3D9D40021D9C3 /* AppDelegate.m */; };
 		E944F61C26A3D9D40021D9C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F61B26A3D9D40021D9C3 /* SceneDelegate.m */; };
 		E944F61F26A3D9D40021D9C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F61E26A3D9D40021D9C3 /* ViewController.m */; };
@@ -16,6 +17,47 @@
 		E944F62A26A3D9D70021D9C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F62926A3D9D70021D9C3 /* main.m */; };
 		E944F63426A3D9D70021D9C3 /* MyDTTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F63326A3D9D70021D9C3 /* MyDTTestTests.m */; };
 		E944F63F26A3D9D70021D9C3 /* MyDTTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F63E26A3D9D70021D9C3 /* MyDTTestUITests.m */; };
+		E944F6E926A3DC660021D9C3 /* WarAndPeace.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6C726A3DC660021D9C3 /* WarAndPeace.html */; };
+		E944F6EA26A3DC660021D9C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E944F6C826A3DC660021D9C3 /* Icon.png */; };
+		E944F6EB26A3DC660021D9C3 /* Image.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6C926A3DC660021D9C3 /* Image.html */; };
+		E944F6EC26A3DC660021D9C3 /* Subviews.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6CA26A3DC660021D9C3 /* Subviews.html */; };
+		E944F6ED26A3DC660021D9C3 /* Oliver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E944F6CB26A3DC660021D9C3 /* Oliver.jpg */; };
+		E944F6EE26A3DC660021D9C3 /* Objects.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6CC26A3DC660021D9C3 /* Objects.html */; };
+		E944F6EF26A3DC660021D9C3 /* LoremIpsum.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6CD26A3DC660021D9C3 /* LoremIpsum.html */; };
+		E944F6F026A3DC660021D9C3 /* LineHeight.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6CE26A3DC660021D9C3 /* LineHeight.html */; };
+		E944F6F126A3DC660021D9C3 /* About.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6CF26A3DC660021D9C3 /* About.html */; };
+		E944F6F226A3DC660021D9C3 /* XB NiloofarBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D026A3DC660021D9C3 /* XB NiloofarBd.ttf */; };
+		E944F6F326A3DC660021D9C3 /* ListTest.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D126A3DC660021D9C3 /* ListTest.html */; };
+		E944F6F426A3DC660021D9C3 /* Video.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D226A3DC660021D9C3 /* Video.html */; };
+		E944F6F526A3DC660021D9C3 /* styles.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D326A3DC660021D9C3 /* styles.html */; };
+		E944F6F626A3DC660021D9C3 /* Oliver@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D426A3DC660021D9C3 /* Oliver@2x.jpg */; };
+		E944F6F726A3DC660021D9C3 /* Snippets.plist in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D526A3DC660021D9C3 /* Snippets.plist */; };
+		E944F6F826A3DC660021D9C3 /* README.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D626A3DC660021D9C3 /* README.html */; };
+		E944F6F926A3DC660021D9C3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D726A3DC660021D9C3 /* Icon@2x.png */; };
+		E944F6FA26A3DC660021D9C3 /* CoreTextIssues.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D826A3DC660021D9C3 /* CoreTextIssues.html */; };
+		E944F6FB26A3DC660021D9C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E944F6D926A3DC660021D9C3 /* Default-568h@2x.png */; };
+		E944F6FC26A3DC660021D9C3 /* css.css in Resources */ = {isa = PBXBuildFile; fileRef = E944F6DA26A3DC660021D9C3 /* css.css */; };
+		E944F6FD26A3DC660021D9C3 /* icon_smile.gif in Resources */ = {isa = PBXBuildFile; fileRef = E944F6DB26A3DC660021D9C3 /* icon_smile.gif */; };
+		E944F6FE26A3DC660021D9C3 /* DTCoreTextFontOverrides.plist in Resources */ = {isa = PBXBuildFile; fileRef = E944F6DC26A3DC660021D9C3 /* DTCoreTextFontOverrides.plist */; };
+		E944F6FF26A3DC660021D9C3 /* Alignment.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6DD26A3DC660021D9C3 /* Alignment.html */; };
+		E944F70026A3DC660021D9C3 /* TextBoxes.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6DE26A3DC660021D9C3 /* TextBoxes.html */; };
+		E944F70126A3DC660021D9C3 /* EmojiTest.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6DF26A3DC660021D9C3 /* EmojiTest.html */; };
+		E944F70226A3DC660021D9C3 /* XB Niloofar.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E026A3DC660021D9C3 /* XB Niloofar.ttf */; };
+		E944F70326A3DC660021D9C3 /* ArabicTest.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E126A3DC660021D9C3 /* ArabicTest.html */; };
+		E944F70426A3DC660021D9C3 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E226A3DC660021D9C3 /* Launch Screen.xib */; };
+		E944F70526A3DC660021D9C3 /* CustomFont.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E326A3DC660021D9C3 /* CustomFont.html */; };
+		E944F70626A3DC660021D9C3 /* APOD.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E426A3DC660021D9C3 /* APOD.html */; };
+		E944F70726A3DC660021D9C3 /* Languages.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E526A3DC660021D9C3 /* Languages.html */; };
+		E944F70826A3DC660021D9C3 /* FontSizes.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E626A3DC660021D9C3 /* FontSizes.html */; };
+		E944F70926A3DC660021D9C3 /* iOS6.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E726A3DC660021D9C3 /* iOS6.html */; };
+		E944F70A26A3DC660021D9C3 /* CurrentTest.html in Resources */ = {isa = PBXBuildFile; fileRef = E944F6E826A3DC660021D9C3 /* CurrentTest.html */; };
+		E944F71C26A3DC860021D9C3 /* DemoWebVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F70D26A3DC840021D9C3 /* DemoWebVideoView.m */; };
+		E944F71E26A3DC860021D9C3 /* DemoSnippetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F71326A3DC850021D9C3 /* DemoSnippetsViewController.m */; };
+		E944F71F26A3DC860021D9C3 /* DemoAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E944F71526A3DC860021D9C3 /* DemoAboutViewController.xib */; };
+		E944F72026A3DC860021D9C3 /* DemoAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F71626A3DC860021D9C3 /* DemoAboutViewController.m */; };
+		E944F72126A3DC860021D9C3 /* AutoLayoutDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F71726A3DC860021D9C3 /* AutoLayoutDemoViewController.m */; };
+		E944F72226A3DC860021D9C3 /* DemoTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E944F71826A3DC860021D9C3 /* DemoTextViewController.m */; };
+		E944F72326A3DC860021D9C3 /* AutoLayoutDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E944F71A26A3DC860021D9C3 /* AutoLayoutDemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +78,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		151A61162395B63272F612A7 /* Pods-MyDTTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDTTest.release.xcconfig"; path = "Target Support Files/Pods-MyDTTest/Pods-MyDTTest.release.xcconfig"; sourceTree = "<group>"; };
+		68A5BF09305818695975673F /* Pods-MyDTTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDTTest.debug.xcconfig"; path = "Target Support Files/Pods-MyDTTest/Pods-MyDTTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9D1D4CFED02AE085ACF5C3 /* libPods-MyDTTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDTTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E944F61426A3D9D40021D9C3 /* MyDTTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDTTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E944F61726A3D9D40021D9C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E944F61826A3D9D40021D9C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +99,53 @@
 		E944F63A26A3D9D70021D9C3 /* MyDTTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDTTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E944F63E26A3D9D70021D9C3 /* MyDTTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDTTestUITests.m; sourceTree = "<group>"; };
 		E944F64026A3D9D70021D9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E944F6C726A3DC660021D9C3 /* WarAndPeace.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WarAndPeace.html; sourceTree = "<group>"; };
+		E944F6C826A3DC660021D9C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E944F6C926A3DC660021D9C3 /* Image.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Image.html; sourceTree = "<group>"; };
+		E944F6CA26A3DC660021D9C3 /* Subviews.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Subviews.html; sourceTree = "<group>"; };
+		E944F6CB26A3DC660021D9C3 /* Oliver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oliver.jpg; sourceTree = "<group>"; };
+		E944F6CC26A3DC660021D9C3 /* Objects.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Objects.html; sourceTree = "<group>"; };
+		E944F6CD26A3DC660021D9C3 /* LoremIpsum.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LoremIpsum.html; sourceTree = "<group>"; };
+		E944F6CE26A3DC660021D9C3 /* LineHeight.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LineHeight.html; sourceTree = "<group>"; };
+		E944F6CF26A3DC660021D9C3 /* About.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.html; sourceTree = "<group>"; };
+		E944F6D026A3DC660021D9C3 /* XB NiloofarBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "XB NiloofarBd.ttf"; sourceTree = "<group>"; };
+		E944F6D126A3DC660021D9C3 /* ListTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ListTest.html; sourceTree = "<group>"; };
+		E944F6D226A3DC660021D9C3 /* Video.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Video.html; sourceTree = "<group>"; };
+		E944F6D326A3DC660021D9C3 /* styles.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = styles.html; sourceTree = "<group>"; };
+		E944F6D426A3DC660021D9C3 /* Oliver@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oliver@2x.jpg"; sourceTree = "<group>"; };
+		E944F6D526A3DC660021D9C3 /* Snippets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Snippets.plist; sourceTree = "<group>"; };
+		E944F6D626A3DC660021D9C3 /* README.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = README.html; sourceTree = "<group>"; };
+		E944F6D726A3DC660021D9C3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E944F6D826A3DC660021D9C3 /* CoreTextIssues.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreTextIssues.html; sourceTree = "<group>"; };
+		E944F6D926A3DC660021D9C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E944F6DA26A3DC660021D9C3 /* css.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = css.css; sourceTree = "<group>"; };
+		E944F6DB26A3DC660021D9C3 /* icon_smile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_smile.gif; sourceTree = "<group>"; };
+		E944F6DC26A3DC660021D9C3 /* DTCoreTextFontOverrides.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DTCoreTextFontOverrides.plist; sourceTree = "<group>"; };
+		E944F6DD26A3DC660021D9C3 /* Alignment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Alignment.html; sourceTree = "<group>"; };
+		E944F6DE26A3DC660021D9C3 /* TextBoxes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TextBoxes.html; sourceTree = "<group>"; };
+		E944F6DF26A3DC660021D9C3 /* EmojiTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EmojiTest.html; sourceTree = "<group>"; };
+		E944F6E026A3DC660021D9C3 /* XB Niloofar.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "XB Niloofar.ttf"; sourceTree = "<group>"; };
+		E944F6E126A3DC660021D9C3 /* ArabicTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ArabicTest.html; sourceTree = "<group>"; };
+		E944F6E226A3DC660021D9C3 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		E944F6E326A3DC660021D9C3 /* CustomFont.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CustomFont.html; sourceTree = "<group>"; };
+		E944F6E426A3DC660021D9C3 /* APOD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = APOD.html; sourceTree = "<group>"; };
+		E944F6E526A3DC660021D9C3 /* Languages.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Languages.html; sourceTree = "<group>"; };
+		E944F6E626A3DC660021D9C3 /* FontSizes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FontSizes.html; sourceTree = "<group>"; };
+		E944F6E726A3DC660021D9C3 /* iOS6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iOS6.html; sourceTree = "<group>"; };
+		E944F6E826A3DC660021D9C3 /* CurrentTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CurrentTest.html; sourceTree = "<group>"; };
+		E944F70D26A3DC840021D9C3 /* DemoWebVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoWebVideoView.m; sourceTree = "<group>"; };
+		E944F70F26A3DC850021D9C3 /* DemoWebVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoWebVideoView.h; sourceTree = "<group>"; };
+		E944F71026A3DC850021D9C3 /* DemoAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAboutViewController.h; sourceTree = "<group>"; };
+		E944F71126A3DC850021D9C3 /* DemoSnippetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSnippetsViewController.h; sourceTree = "<group>"; };
+		E944F71326A3DC850021D9C3 /* DemoSnippetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSnippetsViewController.m; sourceTree = "<group>"; };
+		E944F71426A3DC850021D9C3 /* AutoLayoutDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutDemoViewController.h; sourceTree = "<group>"; };
+		E944F71526A3DC860021D9C3 /* DemoAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoAboutViewController.xib; sourceTree = "<group>"; };
+		E944F71626A3DC860021D9C3 /* DemoAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAboutViewController.m; sourceTree = "<group>"; };
+		E944F71726A3DC860021D9C3 /* AutoLayoutDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutDemoViewController.m; sourceTree = "<group>"; };
+		E944F71826A3DC860021D9C3 /* DemoTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTextViewController.m; sourceTree = "<group>"; };
+		E944F71926A3DC860021D9C3 /* DemoTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTextViewController.h; sourceTree = "<group>"; };
+		E944F71A26A3DC860021D9C3 /* AutoLayoutDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutDemoViewController.xib; sourceTree = "<group>"; };
+		E9AB2FFF26A3E2C800672FC1 /* MyDTTest.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDTTest.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FDE05171227B22424A382DF /* libPods-MyDTTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +174,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		864D7246114502940A9D3F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA9D1D4CFED02AE085ACF5C3 /* libPods-MyDTTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA4811F38773AA9EE620476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68A5BF09305818695975673F /* Pods-MyDTTest.debug.xcconfig */,
+				151A61162395B63272F612A7 /* Pods-MyDTTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E944F60B26A3D9D40021D9C3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +198,8 @@
 				E944F63226A3D9D70021D9C3 /* MyDTTestTests */,
 				E944F63D26A3D9D70021D9C3 /* MyDTTestUITests */,
 				E944F61526A3D9D40021D9C3 /* Products */,
+				CCA4811F38773AA9EE620476 /* Pods */,
+				864D7246114502940A9D3F3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +216,8 @@
 		E944F61626A3D9D40021D9C3 /* MyDTTest */ = {
 			isa = PBXGroup;
 			children = (
+				E944F70B26A3DC740021D9C3 /* Sources */,
+				E944F6C626A3DC660021D9C3 /* Resources */,
 				E944F61726A3D9D40021D9C3 /* AppDelegate.h */,
 				E944F61826A3D9D40021D9C3 /* AppDelegate.m */,
 				E944F61A26A3D9D40021D9C3 /* SceneDelegate.h */,
@@ -115,6 +229,7 @@
 				E944F62526A3D9D70021D9C3 /* LaunchScreen.storyboard */,
 				E944F62826A3D9D70021D9C3 /* Info.plist */,
 				E944F62926A3D9D70021D9C3 /* main.m */,
+				E9AB2FFF26A3E2C800672FC1 /* MyDTTest.pch */,
 			);
 			path = MyDTTest;
 			sourceTree = "<group>";
@@ -137,6 +252,66 @@
 			path = MyDTTestUITests;
 			sourceTree = "<group>";
 		};
+		E944F6C626A3DC660021D9C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E944F6C726A3DC660021D9C3 /* WarAndPeace.html */,
+				E944F6C826A3DC660021D9C3 /* Icon.png */,
+				E944F6C926A3DC660021D9C3 /* Image.html */,
+				E944F6CA26A3DC660021D9C3 /* Subviews.html */,
+				E944F6CB26A3DC660021D9C3 /* Oliver.jpg */,
+				E944F6CC26A3DC660021D9C3 /* Objects.html */,
+				E944F6CD26A3DC660021D9C3 /* LoremIpsum.html */,
+				E944F6CE26A3DC660021D9C3 /* LineHeight.html */,
+				E944F6CF26A3DC660021D9C3 /* About.html */,
+				E944F6D026A3DC660021D9C3 /* XB NiloofarBd.ttf */,
+				E944F6D126A3DC660021D9C3 /* ListTest.html */,
+				E944F6D226A3DC660021D9C3 /* Video.html */,
+				E944F6D326A3DC660021D9C3 /* styles.html */,
+				E944F6D426A3DC660021D9C3 /* Oliver@2x.jpg */,
+				E944F6D526A3DC660021D9C3 /* Snippets.plist */,
+				E944F6D626A3DC660021D9C3 /* README.html */,
+				E944F6D726A3DC660021D9C3 /* Icon@2x.png */,
+				E944F6D826A3DC660021D9C3 /* CoreTextIssues.html */,
+				E944F6D926A3DC660021D9C3 /* Default-568h@2x.png */,
+				E944F6DA26A3DC660021D9C3 /* css.css */,
+				E944F6DB26A3DC660021D9C3 /* icon_smile.gif */,
+				E944F6DC26A3DC660021D9C3 /* DTCoreTextFontOverrides.plist */,
+				E944F6DD26A3DC660021D9C3 /* Alignment.html */,
+				E944F6DE26A3DC660021D9C3 /* TextBoxes.html */,
+				E944F6DF26A3DC660021D9C3 /* EmojiTest.html */,
+				E944F6E026A3DC660021D9C3 /* XB Niloofar.ttf */,
+				E944F6E126A3DC660021D9C3 /* ArabicTest.html */,
+				E944F6E226A3DC660021D9C3 /* Launch Screen.xib */,
+				E944F6E326A3DC660021D9C3 /* CustomFont.html */,
+				E944F6E426A3DC660021D9C3 /* APOD.html */,
+				E944F6E526A3DC660021D9C3 /* Languages.html */,
+				E944F6E626A3DC660021D9C3 /* FontSizes.html */,
+				E944F6E726A3DC660021D9C3 /* iOS6.html */,
+				E944F6E826A3DC660021D9C3 /* CurrentTest.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E944F70B26A3DC740021D9C3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E944F71426A3DC850021D9C3 /* AutoLayoutDemoViewController.h */,
+				E944F71726A3DC860021D9C3 /* AutoLayoutDemoViewController.m */,
+				E944F71A26A3DC860021D9C3 /* AutoLayoutDemoViewController.xib */,
+				E944F71026A3DC850021D9C3 /* DemoAboutViewController.h */,
+				E944F71626A3DC860021D9C3 /* DemoAboutViewController.m */,
+				E944F71526A3DC860021D9C3 /* DemoAboutViewController.xib */,
+				E944F71126A3DC850021D9C3 /* DemoSnippetsViewController.h */,
+				E944F71326A3DC850021D9C3 /* DemoSnippetsViewController.m */,
+				E944F71926A3DC860021D9C3 /* DemoTextViewController.h */,
+				E944F71826A3DC860021D9C3 /* DemoTextViewController.m */,
+				E944F70F26A3DC850021D9C3 /* DemoWebVideoView.h */,
+				E944F70D26A3DC840021D9C3 /* DemoWebVideoView.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E944F64326A3D9D70021D9C3 /* Build configuration list for PBXNativeTarget "MyDTTest" */;
 			buildPhases = (
+				01EE76420E11C9E7C4868DC8 /* [CP] Check Pods Manifest.lock */,
 				E944F61026A3D9D40021D9C3 /* Sources */,
 				E944F61126A3D9D40021D9C3 /* Frameworks */,
 				E944F61226A3D9D40021D9C3 /* Resources */,
+				2E442E465AC53FB07277E64A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,9 +416,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E944F70726A3DC660021D9C3 /* Languages.html in Resources */,
+				E944F6F826A3DC660021D9C3 /* README.html in Resources */,
+				E944F6FB26A3DC660021D9C3 /* Default-568h@2x.png in Resources */,
+				E944F6FF26A3DC660021D9C3 /* Alignment.html in Resources */,
+				E944F6F326A3DC660021D9C3 /* ListTest.html in Resources */,
+				E944F70526A3DC660021D9C3 /* CustomFont.html in Resources */,
+				E944F6F126A3DC660021D9C3 /* About.html in Resources */,
+				E944F6F526A3DC660021D9C3 /* styles.html in Resources */,
+				E944F6FA26A3DC660021D9C3 /* CoreTextIssues.html in Resources */,
+				E944F6F426A3DC660021D9C3 /* Video.html in Resources */,
+				E944F6FE26A3DC660021D9C3 /* DTCoreTextFontOverrides.plist in Resources */,
+				E944F70826A3DC660021D9C3 /* FontSizes.html in Resources */,
 				E944F62726A3D9D70021D9C3 /* LaunchScreen.storyboard in Resources */,
 				E944F62426A3D9D70021D9C3 /* Assets.xcassets in Resources */,
+				E944F6ED26A3DC660021D9C3 /* Oliver.jpg in Resources */,
+				E944F6FC26A3DC660021D9C3 /* css.css in Resources */,
+				E944F70A26A3DC660021D9C3 /* CurrentTest.html in Resources */,
+				E944F6EA26A3DC660021D9C3 /* Icon.png in Resources */,
+				E944F6F926A3DC660021D9C3 /* Icon@2x.png in Resources */,
+				E944F70226A3DC660021D9C3 /* XB Niloofar.ttf in Resources */,
+				E944F6F026A3DC660021D9C3 /* LineHeight.html in Resources */,
+				E944F6E926A3DC660021D9C3 /* WarAndPeace.html in Resources */,
+				E944F6EF26A3DC660021D9C3 /* LoremIpsum.html in Resources */,
+				E944F71F26A3DC860021D9C3 /* DemoAboutViewController.xib in Resources */,
+				E944F72326A3DC860021D9C3 /* AutoLayoutDemoViewController.xib in Resources */,
+				E944F6EC26A3DC660021D9C3 /* Subviews.html in Resources */,
+				E944F6EB26A3DC660021D9C3 /* Image.html in Resources */,
+				E944F70626A3DC660021D9C3 /* APOD.html in Resources */,
 				E944F62226A3D9D40021D9C3 /* Main.storyboard in Resources */,
+				E944F6F726A3DC660021D9C3 /* Snippets.plist in Resources */,
+				E944F70026A3DC660021D9C3 /* TextBoxes.html in Resources */,
+				E944F70326A3DC660021D9C3 /* ArabicTest.html in Resources */,
+				E944F6FD26A3DC660021D9C3 /* icon_smile.gif in Resources */,
+				E944F6F226A3DC660021D9C3 /* XB NiloofarBd.ttf in Resources */,
+				E944F70126A3DC660021D9C3 /* EmojiTest.html in Resources */,
+				E944F70426A3DC660021D9C3 /* Launch Screen.xib in Resources */,
+				E944F70926A3DC660021D9C3 /* iOS6.html in Resources */,
+				E944F6F626A3DC660021D9C3 /* Oliver@2x.jpg in Resources */,
+				E944F6EE26A3DC660021D9C3 /* Objects.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +474,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01EE76420E11C9E7C4868DC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDTTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E442E465AC53FB07277E64A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDTTest/Pods-MyDTTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDTTest/Pods-MyDTTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDTTest/Pods-MyDTTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E944F61026A3D9D40021D9C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E944F61F26A3D9D40021D9C3 /* ViewController.m in Sources */,
+				E944F71E26A3DC860021D9C3 /* DemoSnippetsViewController.m in Sources */,
+				E944F72126A3DC860021D9C3 /* AutoLayoutDemoViewController.m in Sources */,
+				E944F72026A3DC860021D9C3 /* DemoAboutViewController.m in Sources */,
 				E944F61926A3D9D40021D9C3 /* AppDelegate.m in Sources */,
 				E944F62A26A3D9D70021D9C3 /* main.m in Sources */,
+				E944F71C26A3DC860021D9C3 /* DemoWebVideoView.m in Sources */,
+				E944F72226A3DC860021D9C3 /* DemoTextViewController.m in Sources */,
 				E944F61C26A3D9D40021D9C3 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,11 +698,14 @@
 		};
 		E944F64426A3D9D70021D9C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A5BF09305818695975673F /* Pods-MyDTTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NE8VK2242L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyDTTest/MyDTTest.pch;
 				INFOPLIST_FILE = MyDTTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,11 +719,14 @@
 		};
 		E944F64526A3D9D70021D9C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151A61162395B63272F612A7 /* Pods-MyDTTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NE8VK2242L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyDTTest/MyDTTest.pch;
 				INFOPLIST_FILE = MyDTTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
